@@ -16,6 +16,8 @@ import { ChangeInputFieldValueDisplay } from './Change-Input-Field-Value-Display
 import CheckboxValueDisplay from './Change-Checkbox-Value-Display'
 import RadioButtonDropdownDisplay from './Radio-Button-Dropdown-Display'
 import { UnderstandLoop } from './Loop-in-Jsx'
+import DeafultClockComponent from './Clock-dynamic-component'
+import DropdownChangeColorClock from './Dropdown-chnage-color-for-clock'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -45,7 +47,8 @@ function App() {
       </PropsStyleJsxDefaultSend> */}
       {/* <CheckboxValueDisplay />
       <RadioButtonDropdownDisplay /> */}
-      <UnderstandLoop />
+      {/* <UnderstandLoop /> */}
+      <DropdownChangeColorClock />
 
 
     </div>
