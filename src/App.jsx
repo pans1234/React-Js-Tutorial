@@ -15,6 +15,7 @@ import PropsStyleJsxDefaultSend from './Props-Style-Jsx-Default-Send'
 import { ChangeInputFieldValueDisplay } from './Change-Input-Field-Value-Display'
 import CheckboxValueDisplay from './Change-Checkbox-Value-Display'
 import RadioButtonDropdownDisplay from './Radio-Button-Dropdown-Display'
+import { UnderstandLoop } from './Loop-in-Jsx'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -42,8 +43,9 @@ function App() {
       <PropsStyleJsxDefaultSend custom_color="darkblue">
         <p>This is a child component</p>
       </PropsStyleJsxDefaultSend> */}
-      <CheckboxValueDisplay />
-      <RadioButtonDropdownDisplay />
+      {/* <CheckboxValueDisplay />
+      <RadioButtonDropdownDisplay /> */}
+      <UnderstandLoop />
 
 
     </div>
