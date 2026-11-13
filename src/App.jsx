@@ -13,6 +13,8 @@ import StateReactUnderstanding from './State-React-Understanding'
 import PropsReactUnderstanding from './Props-react-Understanding'
 import PropsStyleJsxDefaultSend from './Props-Style-Jsx-Default-Send'
 import { ChangeInputFieldValueDisplay } from './Change-Input-Field-Value-Display'
+import CheckboxValueDisplay from './Change-Checkbox-Value-Display'
+import RadioButtonDropdownDisplay from './Radio-Button-Dropdown-Display'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -33,13 +35,15 @@ function App() {
       <StateReactUnderstanding />
       <FuncReactUnderstanding /> */}
       {/* <PropsReactUnderstanding name="Aditya Jain" age={25} /> */}
-      <button onClick={() => showUserDetails(!userDetails)}>Toggle User Details</button>
+      {/* <button onClick={() => showUserDetails(!userDetails)}>Toggle User Details</button> */}
       {/* {userObj && userDetails && <PropsReactUnderstanding userList={userObj} />} */}
-      <ChangeInputFieldValueDisplay />
+      {/* <ChangeInputFieldValueDisplay />
       {userObj && userDetails ? <PropsReactUnderstanding userList={userObj} /> : null}
       <PropsStyleJsxDefaultSend custom_color="darkblue">
         <p>This is a child component</p>
-      </PropsStyleJsxDefaultSend>
+      </PropsStyleJsxDefaultSend> */}
+      <CheckboxValueDisplay />
+      <RadioButtonDropdownDisplay />
 
 
     </div>
