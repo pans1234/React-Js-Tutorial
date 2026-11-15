@@ -1,9 +1,10 @@
 import '../css/external-css.css'
+import style from '../css/cards.module.css'
 function ExternalCssPractice() {
     return (
         <>
             <div className="containerStyleExt">
-                <div className="cardStyleExt">
+                <div className={style.cardStyleModule}>
                     <div>
                         <img
                             className="imgStyleExt"
@@ -16,7 +17,7 @@ function ExternalCssPractice() {
                         <h6>Role: SoftWare Developer</h6>
                     </div>
                 </div>
-                <div className="cardStyleExt">
+                <div className={style.cardStyleModule}>
                     <div>
                         <img
                             className="imgStyleExt"
@@ -28,7 +29,7 @@ function ExternalCssPractice() {
                         <h6>Role: SoftWare Developer</h6>
                     </div>
                 </div>
-                <div className="cardStyleExt">
+                <div className={style.cardStyleModule}>
                     <div>
                         <img
                             className="imgStyleExt"
@@ -40,7 +41,7 @@ function ExternalCssPractice() {
                         <h6>Role: SoftWare Developer</h6>
                     </div>
                 </div>
-                <div className="cardStyleExt">
+                <div className={style.cardStyleModule}>
                     <div>
                         <img
                             className="imgStyleExt"
