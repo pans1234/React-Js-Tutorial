@@ -20,6 +20,7 @@ import DeafultClockComponent from './Clock-dynamic-component'
 import DropdownChangeColorClock from './Dropdown-chnage-color-for-clock'
 import { NestedLoopJsx } from './Nested-Loop-Jsx'
 import UseEffectsHooks from './Use-Effects-Hooks-Understanding'
+import InlineCssRecat from './styled_css_in_react_with_diff_methods/inline-css-react-understanding'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -52,7 +53,8 @@ function App() {
       {/* <UnderstandLoop /> */}
       {/* <DropdownChangeColorClock /> */}
       {/* <NestedLoopJsx /> */}
-      <UseEffectsHooks />
+      {/* <UseEffectsHooks /> */}
+      <InlineCssRecat />
 
 
     </div>

@@ -9,15 +9,22 @@ function UseEffectsHooks() {
 
     // useEffect(() => {
     //     handleComponentCallOnce();
-    // }, [count,state2])
+    // }, [count,state2]) Calls Only if change in count  and state2
+
 
     // useEffect(() => {
     //     handleComponentCallOnce();
-    // }, [props1,props2])
+    // }, [props1,props2]) Calls Only if change in props1 and props2
 
     // useEffect(() => {
     //     handleComponentCallOnce();
     // }) cal every time whenever the Compoennt re renders
+
+    useEffect(() => {
+        return (() => {
+            // Based on certain condition whever the comonent is going to hide or display none or component going to end this will act as ngDestroy()
+        })
+    }, [])
 
     function handleComponentCallOnce() {
         console.log("This Should be Called only once===> handleComponentCallOnce");
