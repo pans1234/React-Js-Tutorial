@@ -1,0 +1,21 @@
+.containerStyleExt {
+    display: flex;
+    /* Below Line is Important beacuse of this you can modify the flexDirection based upon teh row or column
+        flexDirection property both will work above line nad below line 
+        flexDirection: isDisplay ? "row" : "column"; */
+    flex-wrap: wrap
+}
+
+.cardStyleExt {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 15px;
+    width: 230px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.imgStyleExt {
+    width: 200px;
+    height: 200px
+}
