@@ -19,6 +19,7 @@ import { UnderstandLoop } from './Loop-in-Jsx'
 import DeafultClockComponent from './Clock-dynamic-component'
 import DropdownChangeColorClock from './Dropdown-chnage-color-for-clock'
 import { NestedLoopJsx } from './Nested-Loop-Jsx'
+import UseEffectsHooks from './Use-Effects-Hooks-Understanding'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -41,16 +42,17 @@ function App() {
       {/* <PropsReactUnderstanding name="Aditya Jain" age={25} /> */}
       {/* <button onClick={() => showUserDetails(!userDetails)}>Toggle User Details</button> */}
       {/* {userObj && userDetails && <PropsReactUnderstanding userList={userObj} />} */}
-      {/* <ChangeInputFieldValueDisplay />
-      {userObj && userDetails ? <PropsReactUnderstanding userList={userObj} /> : null}
-      <PropsStyleJsxDefaultSend custom_color="darkblue">
+      {/* <ChangeInputFieldValueDisplay /> */}
+      {/* {userObj && userDetails ? <PropsReactUnderstanding userList={userObj} /> : null} */}
+      {/* <PropsStyleJsxDefaultSend custom_color="darkblue">
         <p>This is a child component</p>
       </PropsStyleJsxDefaultSend> */}
       {/* <CheckboxValueDisplay />
       <RadioButtonDropdownDisplay /> */}
       {/* <UnderstandLoop /> */}
       {/* <DropdownChangeColorClock /> */}
-      <NestedLoopJsx />
+      {/* <NestedLoopJsx /> */}
+      <UseEffectsHooks />
 
 
     </div>
