@@ -24,6 +24,7 @@ import InlineCssRecat from './styled_css_in_react_with_diff_methods/inline-css-r
 import ExternalCssPractice from './styled_css_in_react_with_diff_methods/external-css-practice'
 import UseRefHooks from './Hooks-Understanding/UseRef-Hooks'
 import UseFormStatusHooks from './Hooks-Understanding/UseFormStatus-Hooks'
+import UnControlledFunc from './Uncontrolled-Component'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -63,7 +64,8 @@ function App() {
 
       {/* <UseRefHooks /> */}
 
-      <UseFormStatusHooks />
+      {/* <UseFormStatusHooks /> */}
+      <UnControlledFunc />
 
 
     </div>
