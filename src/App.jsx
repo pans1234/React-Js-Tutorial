@@ -29,6 +29,7 @@ import PassFunctionAsProps from './React-Advance-Concepts/Pass-Func-As-Props'
 import UseTransitionHookUnderstanding from './Hooks-Understanding/UsetRansitionhooks'
 import ImpurePureComponent from './React-Advance-Concepts/Pure-Component'
 import PureFunction from './React-Advance-Concepts/Pure-Component'
+import DerivedState from './React-Advance-Concepts/Derived-State'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -73,7 +74,8 @@ function App() {
       {/* <PassFunctionAsProps /> */}
       {/* <UseTransitionHookUnderstanding /> */}
       {/* <ImpurePureComponent /> */}
-      <PureFunction />
+      {/* <PureFunction /> */}
+      <DerivedState />
 
 
     </div>
