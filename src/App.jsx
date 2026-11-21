@@ -19,12 +19,13 @@ import { UnderstandLoop } from './Loop-in-Jsx'
 import DeafultClockComponent from './Clock-dynamic-component'
 import DropdownChangeColorClock from './Dropdown-chnage-color-for-clock'
 import { NestedLoopJsx } from './Nested-Loop-Jsx'
-import UseEffectsHooks from './Use-Effects-Hooks-Understanding'
+import UseEffectsHooks from './Hooks-Understanding/Use-Effects-Hooks-Understanding'
 import InlineCssRecat from './styled_css_in_react_with_diff_methods/inline-css-react-understanding'
 import ExternalCssPractice from './styled_css_in_react_with_diff_methods/external-css-practice'
 import UseRefHooks from './Hooks-Understanding/UseRef-Hooks'
 import UseFormStatusHooks from './Hooks-Understanding/UseFormStatus-Hooks'
 import UnControlledFunc from './Uncontrolled-Component'
+import PassFunctionAsProps from './React-Advance-Concepts/Pass-Func-As-Props'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -65,7 +66,8 @@ function App() {
       {/* <UseRefHooks /> */}
 
       {/* <UseFormStatusHooks /> */}
-      <UnControlledFunc />
+      {/* <UnControlledFunc /> */}
+      <PassFunctionAsProps />
 
 
     </div>
