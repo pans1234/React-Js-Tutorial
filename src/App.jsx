@@ -30,6 +30,7 @@ import UseTransitionHookUnderstanding from './Hooks-Understanding/UsetRansitionh
 import ImpurePureComponent from './React-Advance-Concepts/Pure-Component'
 import PureFunction from './React-Advance-Concepts/Pure-Component'
 import DerivedState from './React-Advance-Concepts/Derived-State'
+import LiftingStateUpParent from './React-Advance-Concepts/Lifting-State-Up-React'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -75,7 +76,8 @@ function App() {
       {/* <UseTransitionHookUnderstanding /> */}
       {/* <ImpurePureComponent /> */}
       {/* <PureFunction /> */}
-      <DerivedState />
+      {/* <DerivedState /> */}
+      <LiftingStateUpParent />
 
 
     </div>
