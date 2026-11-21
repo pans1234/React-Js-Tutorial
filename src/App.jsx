@@ -27,6 +27,8 @@ import UseFormStatusHooks from './Hooks-Understanding/UseFormStatus-Hooks'
 import UnControlledFunc from './Uncontrolled-Component'
 import PassFunctionAsProps from './React-Advance-Concepts/Pass-Func-As-Props'
 import UseTransitionHookUnderstanding from './Hooks-Understanding/UsetRansitionhooks'
+import ImpurePureComponent from './React-Advance-Concepts/Pure-Component'
+import PureFunction from './React-Advance-Concepts/Pure-Component'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -69,7 +71,9 @@ function App() {
       {/* <UseFormStatusHooks /> */}
       {/* <UnControlledFunc /> */}
       {/* <PassFunctionAsProps /> */}
-      <UseTransitionHookUnderstanding />
+      {/* <UseTransitionHookUnderstanding /> */}
+      {/* <ImpurePureComponent /> */}
+      <PureFunction />
 
 
     </div>
