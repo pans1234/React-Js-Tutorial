@@ -31,6 +31,7 @@ import ImpurePureComponent from './React-Advance-Concepts/Pure-Component'
 import PureFunction from './React-Advance-Concepts/Pure-Component'
 import DerivedState from './React-Advance-Concepts/Derived-State'
 import LiftingStateUpParent from './React-Advance-Concepts/Lifting-State-Up-React'
+import UpdateObjState from './Hooks-Understanding/Updating-objects-of-state'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -77,7 +78,8 @@ function App() {
       {/* <ImpurePureComponent /> */}
       {/* <PureFunction /> */}
       {/* <DerivedState /> */}
-      <LiftingStateUpParent />
+      {/* <LiftingStateUpParent /> */}
+      <UpdateObjState />
 
 
     </div>
