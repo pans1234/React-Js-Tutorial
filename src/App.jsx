@@ -34,6 +34,7 @@ import LiftingStateUpParent from './React-Advance-Concepts/Lifting-State-Up-Reac
 import UpdateObjState from './Hooks-Understanding/Updating-objects-of-state'
 import UpdateArrayObjects from './Hooks-Understanding/Update-Array-Objects-List'
 import useToggleHooks from './custom-hooks/useToggle'
+import ParentContextAPI from './Context-Api-Understand/Parent-context'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -84,7 +85,7 @@ function App() {
       {/* <LiftingStateUpParent /> */}
       {/* <UpdateObjState /> */}
       {/* <UpdateArrayObjects /> */}
-      <button onClick={setDisplay}>Toggle Heading</button>
+      {/* <button onClick={setDisplay}>Toggle Heading</button>
       <button onClick={(e) => setHideShow(false)}>HideHeading</button>
       <button onClick={() => setHideShow(true)}>ShowHeading</button>
       {
@@ -93,7 +94,9 @@ function App() {
       <hr />
       {
         hideShow ? <h1>Custom Hooks Testing from Hide and show Function</h1> : null
-      }
+      } */}
+
+      <ParentContextAPI />
 
 
     </div>
