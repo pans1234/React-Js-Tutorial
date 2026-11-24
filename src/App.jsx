@@ -33,6 +33,7 @@ import DerivedState from './React-Advance-Concepts/Derived-State'
 import LiftingStateUpParent from './React-Advance-Concepts/Lifting-State-Up-React'
 import UpdateObjState from './Hooks-Understanding/Updating-objects-of-state'
 import UpdateArrayObjects from './Hooks-Understanding/Update-Array-Objects-List'
+import useToggleHooks from './custom-hooks/useToggle'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -43,7 +44,8 @@ function App() {
     }
   ]
   const [userDetails, showUserDetails] = useState(false)
-
+  const [isDisplay, setDisplay] = useToggleHooks(true)
+  const [hideShow, setHideShow] = useToggleHooks()
   return (
     <div>
       <h1>React Tutorial</h1>
@@ -81,7 +83,17 @@ function App() {
       {/* <DerivedState /> */}
       {/* <LiftingStateUpParent /> */}
       {/* <UpdateObjState /> */}
-      <UpdateArrayObjects />
+      {/* <UpdateArrayObjects /> */}
+      <button onClick={setDisplay}>Toggle Heading</button>
+      <button onClick={(e) => setHideShow(false)}>HideHeading</button>
+      <button onClick={() => setHideShow(true)}>ShowHeading</button>
+      {
+        isDisplay ? <h1>Custom Hooks Testing through Toggle Hooks</h1> : null
+      }
+      <hr />
+      {
+        hideShow ? <h1>Custom Hooks Testing from Hide and show Function</h1> : null
+      }
 
 
     </div>
