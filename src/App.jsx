@@ -35,6 +35,7 @@ import UpdateObjState from './Hooks-Understanding/Updating-objects-of-state'
 import UpdateArrayObjects from './Hooks-Understanding/Update-Array-Objects-List'
 import useToggleHooks from './custom-hooks/useToggle'
 import ParentContextAPI from './Context-Api-Understand/Parent-context'
+import ReactRouterParent from './React-Routers/react-router-parent'
 function App() {
   const [count, setCount] = useState(0)
   let userObj = [
@@ -49,7 +50,7 @@ function App() {
   const [hideShow, setHideShow] = useToggleHooks()
   return (
     <div>
-      <h1>React Tutorial</h1>
+      <h1>Logo</h1>
       {/* <Login />
       <ReactJsxTutorial />
       <VariableInReact />
@@ -96,9 +97,8 @@ function App() {
         hideShow ? <h1>Custom Hooks Testing from Hide and show Function</h1> : null
       } */}
 
-      <ParentContextAPI />
-
-
+      {/* <ParentContextAPI /> */}
+      <ReactRouterParent />
     </div>
   )
 }
